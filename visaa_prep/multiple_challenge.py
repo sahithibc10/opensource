@@ -1,7 +1,6 @@
 n=int(input())
-arr=list(map(int,input().split()))
-unique=[]
-for i in arr:
-    if i not in unique:
-        unique.append(i)
-print(*unique)
+c1=n//3
+c2=n//5
+c3=n//15
+count=c1+c2-c3
+print(count)
